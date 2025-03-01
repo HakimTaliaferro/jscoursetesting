@@ -9,7 +9,7 @@ function submitFeedback() {
     const designation = document.getElementById('designation').value;
     const productType = document.getElementById('productType').value;
     const feedback = document.getElementById('feedbackText').value;
-    const userExperience = document.getElementById('userExperience').value;
+    const experience = document.getElementById('experience').value;
 
     // Display values inside corresponding <span> elements
     document.getElementById('userName').innerText = username;
@@ -19,7 +19,7 @@ function submitFeedback() {
     document.getElementById('userDesignation').innerText = designation;
     document.getElementById('userProductChoice').innerText = productType;
     document.getElementById('userFeedback').innerText = feedback;
-    document.getElementById('userExperience').innerText = userExperienceText;
+    document.getElementById('userExperience').innerText = experience;
 
     // Show the user information section
     document.getElementById('userInfo').style.display = 'block';
