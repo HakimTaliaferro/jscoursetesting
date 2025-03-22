@@ -1,0 +1,52 @@
+/* Basic Reset for Margin and Padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Form Group Container */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+  display: inline-block;
+  width: 150px;
+  margin-left: 10px;
+}
+
+/* Input Field Styling */
+input {
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  margin-left: 10px;
+}
+
+/* Button Styling */
+button {
+  border-radius: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Result Paragraph */
+#result {
+  margin-top: 20px;
+}
